@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.meelock.eldritchcrops.EldritchCrops"
+			"init": "io.github.meelock.eldritchcrops.EldritchCropsMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "eldritch_crops.mixins.json"
 }
