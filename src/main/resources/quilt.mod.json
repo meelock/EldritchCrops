@@ -8,14 +8,15 @@
 			"name": "Eldrich Crops",
 			"description": "Magical Crops mod for Quilt, with a twist!",
 			"contributors": {
-				"Your name here": "Meelock"
+				"Meelock": "Author"
 			},
 			"contact": {
-				"homepage": "",
+				"homepage": "https://github.com/meelock/EldritchCrops",
 				"issues": "https://github.com/meelock/EldritchCrops/issues",
 				"sources": "https://github.com/meelock/EldritchCrops"
 			},
-			"icon": "assets/eldritch_crops/icon.png"
+			"icon": "assets/eldritch_crops/icon.png",
+			"license": "MIT"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
@@ -29,6 +30,10 @@
 			{
 				"id": "quilted_fabric_api",
 				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "qkl",
+				"versions": "*"
 			},
 			{
 				"id": "minecraft",
